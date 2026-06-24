@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST20
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 45b5282f63c641d78f070e55533119e1, type: 2}
+  - {fileID: 11400000, guid: 707b0b21644a4f86baeca0745e53b93e, type: 2}
+  - {fileID: 11400000, guid: 8b819f9ed07f4f459ed33ff8f35dfae7, type: 2}
+  - {fileID: 11400000, guid: f0900ad924e24a2e8af850c108cb6138, type: 2}
+  - {fileID: 11400000, guid: e6cf65255d0443d8a7120e309513ca10, type: 2}
+  - {fileID: 11400000, guid: fde5e209fa694044be2346be460302ae, type: 2}
+  - {fileID: 11400000, guid: 9f4ee5928edc40b8a11107e100ffb26e, type: 2}
+  - {fileID: 11400000, guid: 70e46871e2e244c080a901896fa26974, type: 2}
+  - {fileID: 11400000, guid: d1b851783e204ad9b88fba72e9040633, type: 2}
+  - {fileID: 11400000, guid: 1d346cb9b51646db95cb71493cac4b5c, type: 2}
+  - {fileID: 11400000, guid: 8ec55499670649f5a404c2f5fc8049c0, type: 2}
+  - {fileID: 11400000, guid: c8dca5292f4246d88adc02e87eb4876f, type: 2}
+  - {fileID: 11400000, guid: 8bbd8234169d434eb9f2808421f2b223, type: 2}
+  - {fileID: 11400000, guid: ae848a98a5884903a0fb498f355412a9, type: 2}
+  - {fileID: 11400000, guid: a5589f9fa941483b9eb7586c22954edc, type: 2}
+  SetName: '[ST20] ST-20: STARTER DECK PROTECTOR OF LIGHT'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 45b5282f63c641d78f070e55533119e1, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

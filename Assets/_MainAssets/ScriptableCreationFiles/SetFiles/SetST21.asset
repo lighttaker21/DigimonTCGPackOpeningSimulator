@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST21
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 1d39e1595e7e464c8681873acedd677f, type: 2}
+  - {fileID: 11400000, guid: 2ec0124ebbde4536b414ed469c19a99e, type: 2}
+  - {fileID: 11400000, guid: 7652f3dc35634c9f911f2d4eff44a7f8, type: 2}
+  - {fileID: 11400000, guid: 664f534f86644562859362b905aaa11a, type: 2}
+  - {fileID: 11400000, guid: 65dce043359a4d4288b99f4a5a60cac3, type: 2}
+  - {fileID: 11400000, guid: 0435fd795110408585f53459779027ec, type: 2}
+  - {fileID: 11400000, guid: ede6567450254548bc5a165c7c20e5a9, type: 2}
+  - {fileID: 11400000, guid: 1159700438d24cdf9c29c6a9b7e75510, type: 2}
+  - {fileID: 11400000, guid: 7fddcca445bf4059ab668d4063ce8eba, type: 2}
+  - {fileID: 11400000, guid: e6c1f11d3c19467eb1f72afb17946e7a, type: 2}
+  - {fileID: 11400000, guid: 5d483d13faa6491697d43df60a0045d3, type: 2}
+  - {fileID: 11400000, guid: 1a6a15bd47e74b5db4852c850813b2bf, type: 2}
+  - {fileID: 11400000, guid: 2fe893b3b3bd457b86e5a1850abe0172, type: 2}
+  - {fileID: 11400000, guid: 1e333dfcb6df452c82107ef742a1db9a, type: 2}
+  - {fileID: 11400000, guid: 8c8cd49529214abdaf0f957a1433bfd9, type: 2}
+  SetName: '[ST21] ST-21: STARTER DECK HERO OF HOPE'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 1d39e1595e7e464c8681873acedd677f, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

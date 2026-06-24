@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetAD1
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: f5e9ce300d724bf0a5d56a4a62c6d90b, type: 2}
+  - {fileID: 11400000, guid: 7b562c5813d64054bfd60b420bf2d852, type: 2}
+  - {fileID: 11400000, guid: 67c2503b82e448998c9aa8709d045aa0, type: 2}
+  - {fileID: 11400000, guid: 2fe834fa3d3345d6bfc5480253aefa08, type: 2}
+  - {fileID: 11400000, guid: e39306e424944814acb146e42d31100e, type: 2}
+  - {fileID: 11400000, guid: 8ef5bb6eb0b94fd78ee17cf765ca382a, type: 2}
+  - {fileID: 11400000, guid: 79bfd37f4b994e9aae89c477519a42e5, type: 2}
+  - {fileID: 11400000, guid: 413fa06e144c41dab1e2d94231dc4969, type: 2}
+  - {fileID: 11400000, guid: 5b8ed5ed2ead41369470b98c64925418, type: 2}
+  - {fileID: 11400000, guid: 78ac7930800b4144b3d60a7bc7ff4fc9, type: 2}
+  - {fileID: 11400000, guid: 54817edbbf2c44a2b71ad08c6ffa4104, type: 2}
+  - {fileID: 11400000, guid: c1f1952f9e8e4ad89c1f8931db001d83, type: 2}
+  - {fileID: 11400000, guid: 6f71d07640dd4f5c95102c02ceb33239, type: 2}
+  - {fileID: 11400000, guid: dc7965498b22481c8f0f127bb4d1d3a4, type: 2}
+  - {fileID: 11400000, guid: d5901a7c3c5e47cb94f41b7662e1d41f, type: 2}
+  - {fileID: 11400000, guid: 79bf8108627649cfa06989cef6802a3b, type: 2}
+  - {fileID: 11400000, guid: 7c370c206cc9440c960e970b4b7d2a1f, type: 2}
+  - {fileID: 11400000, guid: ec47d16599694ff18d131745d72925a7, type: 2}
+  - {fileID: 11400000, guid: a3d8c089d2ea4763a2657748ca623a6f, type: 2}
+  - {fileID: 11400000, guid: 6cc653d2ce8d465185eaeed4d837bd49, type: 2}
+  - {fileID: 11400000, guid: acddf4c336594fc79006ff6322cbfa12, type: 2}
+  - {fileID: 11400000, guid: 3f64e4e890b74c92999757335bdb25d4, type: 2}
+  - {fileID: 11400000, guid: 7be3aafc15bc49099f2df3d5886a85bf, type: 2}
+  - {fileID: 11400000, guid: 74996afde9594f78a1b187085e8ce623, type: 2}
+  - {fileID: 11400000, guid: 2179e44aad52424e94ebca0aa46ee01e, type: 2}
+  SetName: '[AD1] AD-01: ADVANCED BOOSTER DIGIMON GENERATION'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: f5e9ce300d724bf0a5d56a4a62c6d90b, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

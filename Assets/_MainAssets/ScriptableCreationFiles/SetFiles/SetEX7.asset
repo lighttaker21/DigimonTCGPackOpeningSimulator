@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetEX7
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: f1743d00b7e04dbea7ffa85adb5d8d90, type: 2}
+  - {fileID: 11400000, guid: 5b42f57a484242e1b296a2eafe1a1ce5, type: 2}
+  - {fileID: 11400000, guid: c649d4561e57427e82f7679ce5d6bb32, type: 2}
+  - {fileID: 11400000, guid: 3ffd7c99c74d463385d30f14320001da, type: 2}
+  - {fileID: 11400000, guid: 9c32f53c1b4d40099250147a243dc74f, type: 2}
+  - {fileID: 11400000, guid: 79f9c90006d54eb38c630e4b78adadae, type: 2}
+  - {fileID: 11400000, guid: e6a67c38cabb4289b84c90fe9e596b78, type: 2}
+  - {fileID: 11400000, guid: a2c4e0587c984784ba960511976f6a03, type: 2}
+  - {fileID: 11400000, guid: dc3b56d49cb3447195a915ffae4bfe68, type: 2}
+  - {fileID: 11400000, guid: 8653fc8abf2f4d579f001e69b99035c2, type: 2}
+  - {fileID: 11400000, guid: 30892e664c2c42dea8d520dff79a9c11, type: 2}
+  - {fileID: 11400000, guid: 3f348e7a319b4f6c9ba88dc07ffaec3c, type: 2}
+  - {fileID: 11400000, guid: 75597035a9734a1a84c3a9a95b856cdb, type: 2}
+  - {fileID: 11400000, guid: c4e77cf81ce6471f871d2c767c11dd0c, type: 2}
+  - {fileID: 11400000, guid: 77c900525d82451d824d02341f97847b, type: 2}
+  - {fileID: 11400000, guid: c34924584e894757bfa1bc9911f53da5, type: 2}
+  - {fileID: 11400000, guid: 73cac91e69904c14b850177586ce0447, type: 2}
+  - {fileID: 11400000, guid: 669bdaf198fa48449d0e99fd1058555c, type: 2}
+  - {fileID: 11400000, guid: 49d79a85bd834d3a82967640e4d5c25a, type: 2}
+  - {fileID: 11400000, guid: ad28ad4060274a0593ef67dc077e5e79, type: 2}
+  - {fileID: 11400000, guid: 4d86af197c304536b6e6c7e115069452, type: 2}
+  - {fileID: 11400000, guid: 434b7fa5ba8a407199654a5897e1ae2e, type: 2}
+  - {fileID: 11400000, guid: 4346e419ce5641758d441f7305923b65, type: 2}
+  - {fileID: 11400000, guid: 109dd89f80124515a3655dc5277be3f8, type: 2}
+  - {fileID: 11400000, guid: 0e439ec1566243039d9ae879dce75e86, type: 2}
+  - {fileID: 11400000, guid: 1965ae9cc22d402d9c8e872ffcc53b90, type: 2}
+  - {fileID: 11400000, guid: 3d71f47fb00f44568cae4928522a95c0, type: 2}
+  - {fileID: 11400000, guid: b23d115258c44fad9f10bda394e643bc, type: 2}
+  - {fileID: 11400000, guid: 3bef17bb263c4f9d90c12eb5cd18de6d, type: 2}
+  - {fileID: 11400000, guid: 2902816d4c804c038b7332d641163e66, type: 2}
+  - {fileID: 11400000, guid: e81eea8a85be48d49a83aa295f3582af, type: 2}
+  - {fileID: 11400000, guid: 29932fc446d84194b73ec9494d8ea905, type: 2}
+  - {fileID: 11400000, guid: 9b4a6a0cf700489e908d53f1bb3b3e36, type: 2}
+  - {fileID: 11400000, guid: 9dca8dd504fd40a89196996c8c58be30, type: 2}
+  - {fileID: 11400000, guid: 6768a5b0411946fdaf4bdf9971c6e07b, type: 2}
+  - {fileID: 11400000, guid: 33f00358eaf043379b16d567f9025ea9, type: 2}
+  - {fileID: 11400000, guid: f4258f3a965d4531a70f4a22d850b1f9, type: 2}
+  - {fileID: 11400000, guid: 952df8a9afce4b51ac487e5e9fb73afd, type: 2}
+  - {fileID: 11400000, guid: 0169185c098c460db82ed0c9c6c89fe4, type: 2}
+  - {fileID: 11400000, guid: 0197213e502441d09122fb8960b95ced, type: 2}
+  - {fileID: 11400000, guid: cb56c706901942bcaa073a42294deaba, type: 2}
+  - {fileID: 11400000, guid: 75d044297ec64795b788df2c2e51b8f1, type: 2}
+  - {fileID: 11400000, guid: 2f9ea87e171a47029487c39a8e14b0f1, type: 2}
+  - {fileID: 11400000, guid: d5e9bd8558ef45ac9ad23f8a5fe3353b, type: 2}
+  - {fileID: 11400000, guid: f756b54494dc41939a9822922c8746eb, type: 2}
+  - {fileID: 11400000, guid: 74cd6bb47d7d433f9c9a8a39eb33569c, type: 2}
+  - {fileID: 11400000, guid: cf1b17874fd9417a883b24fa339b4bce, type: 2}
+  - {fileID: 11400000, guid: aa403e6b7edf465daeff2f1d2531f1bb, type: 2}
+  - {fileID: 11400000, guid: 8aaf09d52e4445db9e3516144634cb8b, type: 2}
+  - {fileID: 11400000, guid: f8242ebd5f6b4d46bc2fb4b1749c21d4, type: 2}
+  - {fileID: 11400000, guid: 7dbf8320f5fc495d82aed0b1fbf842f7, type: 2}
+  - {fileID: 11400000, guid: 1724b528870a48ef8a2f4ed6e0382745, type: 2}
+  - {fileID: 11400000, guid: fa3a4f4fe93b476e91803e1dae1a98e0, type: 2}
+  - {fileID: 11400000, guid: 4e6506ae2f6f44e79e1445e2020ec1a3, type: 2}
+  - {fileID: 11400000, guid: 9355dbe2f44749a7bdbd990c00004eba, type: 2}
+  - {fileID: 11400000, guid: 7fcdf903950d4e44b3b157ccdeab3624, type: 2}
+  - {fileID: 11400000, guid: 1c0a3f5bc82a4261b533084fd8cc2c1b, type: 2}
+  - {fileID: 11400000, guid: fa9da9fc41ef40eca4387148366ecf65, type: 2}
+  - {fileID: 11400000, guid: 816b9230292b4bbaba8f7ab488c0e556, type: 2}
+  - {fileID: 11400000, guid: ddb1456cb8c24df29560de27535bcd35, type: 2}
+  - {fileID: 11400000, guid: 7f516d39151d472faf1da4fea3eda20f, type: 2}
+  - {fileID: 11400000, guid: 25229b197d1b47fd8233e8884a1c3527, type: 2}
+  - {fileID: 11400000, guid: 906901b1924c4970b1a81e66a59248a3, type: 2}
+  - {fileID: 11400000, guid: e493341ffe3345369ea5c13aadae0a96, type: 2}
+  - {fileID: 11400000, guid: 6b37a7ea39c744f18d08b5308cf5590d, type: 2}
+  - {fileID: 11400000, guid: 1abc59d771ea4c74b5d169f300416693, type: 2}
+  - {fileID: 11400000, guid: d7ac60325c6243f19ca0a115608a0f33, type: 2}
+  - {fileID: 11400000, guid: eae2dae51c6742fca3f76e2604007e45, type: 2}
+  - {fileID: 11400000, guid: b82dac83b9ee40f4a83fe5bbf4a42166, type: 2}
+  - {fileID: 11400000, guid: f36b24748b814d3e891df36fb624ee90, type: 2}
+  - {fileID: 11400000, guid: a7cabc579b6a442aa7ef7a1128b06988, type: 2}
+  - {fileID: 11400000, guid: 89752b534e5040c2af4a10d795d81cc3, type: 2}
+  - {fileID: 11400000, guid: 35f43fe39bff4f539a629b30f0f7df1f, type: 2}
+  - {fileID: 11400000, guid: c2dc9c897c6b45b9bf3522fee21d2bdd, type: 2}
+  SetName: '[EX7] ▹EXTRA BOOSTER DIGIMON LIBERATOR [EX-07]'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: f1743d00b7e04dbea7ffa85adb5d8d90, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

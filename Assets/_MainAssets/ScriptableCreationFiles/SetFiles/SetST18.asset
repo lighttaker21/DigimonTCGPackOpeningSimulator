@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST18
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 15abccde2f8a4fb5be71e0ca8727dabd, type: 2}
+  - {fileID: 11400000, guid: 99bd8518758d4a9093b08bc552991b55, type: 2}
+  - {fileID: 11400000, guid: ba8fc4160e6d4822be92cd91816e6576, type: 2}
+  - {fileID: 11400000, guid: 17ea3c1e0e6a4293af8c5acf219b5a0f, type: 2}
+  - {fileID: 11400000, guid: 8d51ad7326234c12831ef438e9517e47, type: 2}
+  - {fileID: 11400000, guid: d8ecfac6cc8840ddaeac10881aa16838, type: 2}
+  - {fileID: 11400000, guid: 99904cd095bb4f65bfc2708e78664658, type: 2}
+  - {fileID: 11400000, guid: 8f5fe280ee7d44b4a0c2e12175cd0ed7, type: 2}
+  - {fileID: 11400000, guid: 3695fbabedff4ba2bd8ab59c1132b939, type: 2}
+  - {fileID: 11400000, guid: 21b8a9dabae142ad8656528c8bfd839f, type: 2}
+  - {fileID: 11400000, guid: 4a1d57e8b73344c386813cc54058f95b, type: 2}
+  - {fileID: 11400000, guid: 5c669af47a1c4404beb2f7b5600d3459, type: 2}
+  - {fileID: 11400000, guid: 702c772c651944b39e487ea725323723, type: 2}
+  - {fileID: 11400000, guid: ace50874dd854a8daa93c07cb0a948c3, type: 2}
+  - {fileID: 11400000, guid: d88d520ccd3947f79f9b4666c624634a, type: 2}
+  SetName: '[ST18] STARTER DECK GUARDIAN VORTEX [ST-18]'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 15abccde2f8a4fb5be71e0ca8727dabd, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

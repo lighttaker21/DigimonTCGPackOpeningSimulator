@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetBT25
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 751bebf3391f4b1cb0fa0802c9bbc08f, type: 2}
+  - {fileID: 11400000, guid: 9a659d188c48485b9e597198e3e491bb, type: 2}
+  - {fileID: 11400000, guid: e0efbcc68b6d442b92aed8e92bd9f75a, type: 2}
+  - {fileID: 11400000, guid: 4846b4d5d351428fb2bb97c04b4a7f24, type: 2}
+  - {fileID: 11400000, guid: 3f89e0ec3fe2461d92ffc903c8a9e622, type: 2}
+  - {fileID: 11400000, guid: 9e5904f0a767448aaf3e0491f2d0f68d, type: 2}
+  - {fileID: 11400000, guid: 024f12503e834c84a507f78af1a0b9d8, type: 2}
+  - {fileID: 11400000, guid: 5ef909ee93064e14afcbbab6c63111ab, type: 2}
+  - {fileID: 11400000, guid: 040beaf31e354180923e99ce6e6cd9f9, type: 2}
+  - {fileID: 11400000, guid: b602f318f41d479aaea2bbeffe1e4c38, type: 2}
+  - {fileID: 11400000, guid: a7ec3dc3fd974cb2a09cdc089a03949f, type: 2}
+  - {fileID: 11400000, guid: 51f3d09dccae431fa5135862e5d731db, type: 2}
+  - {fileID: 11400000, guid: 8da6ef41e2b44a7ab368586c2f683610, type: 2}
+  - {fileID: 11400000, guid: 4ccb55a3657848ddb2913ba6b8f40e1c, type: 2}
+  - {fileID: 11400000, guid: 2e6ef8876ac24838b592d3452a525efa, type: 2}
+  - {fileID: 11400000, guid: 025f7c7ee3ef4d9d97997ebf6430863d, type: 2}
+  - {fileID: 11400000, guid: a0c6b854e25e49ee8e80492bac3cc899, type: 2}
+  - {fileID: 11400000, guid: 8d8daa8e64014f878e63947a65f748c3, type: 2}
+  - {fileID: 11400000, guid: 93c0843a3cc84385a97e7cdac7890a5d, type: 2}
+  - {fileID: 11400000, guid: 385391a4fdba4eee9ec2925438b591e9, type: 2}
+  - {fileID: 11400000, guid: 637fcd6fc35144c0b5ed0e6f3457a8d4, type: 2}
+  - {fileID: 11400000, guid: 6d16bc85811047b0b21fef67f29f3291, type: 2}
+  - {fileID: 11400000, guid: 731be9687e404333823d41fac1493f3a, type: 2}
+  - {fileID: 11400000, guid: 5d5ae27944714bfa9252fe25e9f6fdaf, type: 2}
+  - {fileID: 11400000, guid: a481883084d041bd830e02e4e38ce255, type: 2}
+  - {fileID: 11400000, guid: 1e5cc30952044a38a6ee9bae4dc5045d, type: 2}
+  - {fileID: 11400000, guid: e2b78309d5924c2194eab86c00418430, type: 2}
+  - {fileID: 11400000, guid: af3994da2fdb48c1beb61fe8df451dba, type: 2}
+  - {fileID: 11400000, guid: 1afde05120da46f5995d33008cbec28b, type: 2}
+  - {fileID: 11400000, guid: ad6eeb9fde6c45adb8242cd6f4512a81, type: 2}
+  - {fileID: 11400000, guid: 5644f30cc70242469a42d83c72a0ecdd, type: 2}
+  - {fileID: 11400000, guid: da15fab9863e42e6b4f7ab6f634c4dd2, type: 2}
+  - {fileID: 11400000, guid: 1cc01c3a1e1e40c3bc22ba2b4bc5576f, type: 2}
+  - {fileID: 11400000, guid: bd2008849703485bb4cb5814a5d54128, type: 2}
+  - {fileID: 11400000, guid: 37e6e3e84caf48e4a18566d08104baf5, type: 2}
+  - {fileID: 11400000, guid: 36c5a593d9b64f2994e5e7ca14dd2bc0, type: 2}
+  - {fileID: 11400000, guid: 8e701b8cb53f4baeb60d0eaf86eedf0b, type: 2}
+  - {fileID: 11400000, guid: 306d23e74aa54da681cf3e84e0ad64a6, type: 2}
+  - {fileID: 11400000, guid: 0e451a7f039f424aa2a6d08a376187fe, type: 2}
+  - {fileID: 11400000, guid: 7a1d9c315c894e0f84513cff5952c6be, type: 2}
+  - {fileID: 11400000, guid: 7c7e638ebd614ccc9dff0c236413d155, type: 2}
+  - {fileID: 11400000, guid: 0b126210d6c24f7795cb1fcd499d5235, type: 2}
+  - {fileID: 11400000, guid: cb28c35e04714eaa91f1ce93116799b0, type: 2}
+  - {fileID: 11400000, guid: 31d5315454e14db396ed48251a7e56e8, type: 2}
+  - {fileID: 11400000, guid: 2873025b200e495895cd988b8ed4c8a1, type: 2}
+  - {fileID: 11400000, guid: f58f5fd5413b4f67844b08c898e26a0b, type: 2}
+  - {fileID: 11400000, guid: d6c5f894086b4cb7b37aa655ca48de5a, type: 2}
+  - {fileID: 11400000, guid: 6d25305eace44d799b32a05fc549b1ba, type: 2}
+  - {fileID: 11400000, guid: e55fd3f9e4b541199449fbde3d85d80a, type: 2}
+  - {fileID: 11400000, guid: e28e4824b47e4ab8993e455a7f8e9a08, type: 2}
+  - {fileID: 11400000, guid: 6a94aa1395374ce089d2b8b3cb13c18d, type: 2}
+  - {fileID: 11400000, guid: 791123fae70947c18da94adc17faff3a, type: 2}
+  - {fileID: 11400000, guid: a94346fe6daa44f8a6fc08238a004a91, type: 2}
+  - {fileID: 11400000, guid: 5e6abfab3f6c45979eb83c900eab4b37, type: 2}
+  - {fileID: 11400000, guid: cdc5617439c34cd0932eae7ce4a0126d, type: 2}
+  - {fileID: 11400000, guid: a3f8bbfe44404d1194ac8db5e2fa3c38, type: 2}
+  - {fileID: 11400000, guid: 7cadf75ac22d46d9b632f4a0eb0a4c2d, type: 2}
+  - {fileID: 11400000, guid: 999ce30c8540465598f5d8cf0552c160, type: 2}
+  - {fileID: 11400000, guid: c7416b9342cf4927b7fe1b43939c3ad0, type: 2}
+  - {fileID: 11400000, guid: 9fc06e1b844e49668263376e865180df, type: 2}
+  - {fileID: 11400000, guid: 068a4b9957494cefacce0956ee5dad0c, type: 2}
+  - {fileID: 11400000, guid: 7e9e728044e543c5803403056f813397, type: 2}
+  - {fileID: 11400000, guid: 172fbda49ab24e789478776ce4b3e446, type: 2}
+  - {fileID: 11400000, guid: 571912fa47b147408778e0aec61299cd, type: 2}
+  - {fileID: 11400000, guid: 5710b48e4b3f487884b4ff3a161e590c, type: 2}
+  - {fileID: 11400000, guid: 160b6c5e43ea41b59419a1de5fdc1850, type: 2}
+  - {fileID: 11400000, guid: 5fe462caebbb42f599df1cdc7864f54f, type: 2}
+  - {fileID: 11400000, guid: b939fd91b69847768758764f09920bdf, type: 2}
+  - {fileID: 11400000, guid: 0777bd24de2a48a3b9cd0713fb6d0ae2, type: 2}
+  - {fileID: 11400000, guid: b5be7df02ea0471f8c79517784e15c59, type: 2}
+  - {fileID: 11400000, guid: 8c87dd810c9e4145ac1b691e31ccc80a, type: 2}
+  - {fileID: 11400000, guid: 3aa2a03496204680b3708bf32ff35ff9, type: 2}
+  - {fileID: 11400000, guid: d20ffc30797d4ed7b9394500308d0482, type: 2}
+  - {fileID: 11400000, guid: c083869a6643471e93dad0eebf598ec6, type: 2}
+  - {fileID: 11400000, guid: 87eb3f2d79614d0481c956843d9e9ad2, type: 2}
+  - {fileID: 11400000, guid: 84e508592b534a86a016fa88ecc7efc6, type: 2}
+  - {fileID: 11400000, guid: d247e948d3a24e3b9dd50efb0dbe5ed0, type: 2}
+  - {fileID: 11400000, guid: 5a9eed57225e4323b35a418acaba08fc, type: 2}
+  - {fileID: 11400000, guid: 808a1b4fbb19462c8b80d8347040ffa7, type: 2}
+  - {fileID: 11400000, guid: 80a826b304fa410298c41561157a1a13, type: 2}
+  - {fileID: 11400000, guid: 24a57e85d647458595216478326ada8f, type: 2}
+  - {fileID: 11400000, guid: 089351aa1e934932b258dd305f2c03ee, type: 2}
+  - {fileID: 11400000, guid: cca31286e28d490aa239e74107116699, type: 2}
+  - {fileID: 11400000, guid: 0e8345936bbb4ace848928aa15fce720, type: 2}
+  - {fileID: 11400000, guid: 50f9e25e4f284e85991a6886f450d1a0, type: 2}
+  - {fileID: 11400000, guid: 026edae178c9442695f9995ac94a4355, type: 2}
+  - {fileID: 11400000, guid: 8b25460670ac495da85afe62e4e57a3a, type: 2}
+  - {fileID: 11400000, guid: 4c97e73c57da473d920c3f9aaec98a0e, type: 2}
+  - {fileID: 11400000, guid: 4b7d8d8aeb8c49898a05a6dec14c43c3, type: 2}
+  - {fileID: 11400000, guid: 5649af1d087d40c58773ac5c173811f9, type: 2}
+  - {fileID: 11400000, guid: 4b9a72c720244173a963160c986408bf, type: 2}
+  - {fileID: 11400000, guid: 918c5fc0735b49c197ce7771d1c6cfd4, type: 2}
+  - {fileID: 11400000, guid: f1cf0cd9cec04fd697b19cef970d88a7, type: 2}
+  - {fileID: 11400000, guid: 9ed6e07f5d5a49c1a52fc56f444be7b0, type: 2}
+  - {fileID: 11400000, guid: 25c2acb29e8b492e8490edd1cebbb545, type: 2}
+  - {fileID: 11400000, guid: 7c9e8e9b20fc4fbbba26fdde21020a18, type: 2}
+  - {fileID: 11400000, guid: 8d936b28af4846bb8beffc3a20049bf8, type: 2}
+  - {fileID: 11400000, guid: 73a727b8b67346a9b1d99303b67a6e7a, type: 2}
+  - {fileID: 11400000, guid: 7d5a7ffce15048798d3149ec9f20b5ed, type: 2}
+  - {fileID: 11400000, guid: c858ab24b6ef49898378ede4f17d1b18, type: 2}
+  - {fileID: 11400000, guid: 44c366e7acd0443ab07125b56d6d8b0b, type: 2}
+  - {fileID: 11400000, guid: a1abcaf62948467bb7af1d61e4af6f33, type: 2}
+  - {fileID: 11400000, guid: bcc1b979068b484f97cc5567958fb663, type: 2}
+  - {fileID: 11400000, guid: 0f2d12ab6f634a81bc305c3babe0544b, type: 2}
+  SetName: '[BT25] BT-25: BOOSTER DUAL REVOLUTION'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 751bebf3391f4b1cb0fa0802c9bbc08f, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

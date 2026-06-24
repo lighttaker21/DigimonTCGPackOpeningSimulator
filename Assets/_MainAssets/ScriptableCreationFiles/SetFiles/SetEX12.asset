@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetEX12
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: e355380909304d6ead72f8b08387f233, type: 2}
+  - {fileID: 11400000, guid: 8c0a7f6ad02b4d759b85ada40ea60e0d, type: 2}
+  - {fileID: 11400000, guid: a756f7528ee44da68fcf38dda9af8b5b, type: 2}
+  - {fileID: 11400000, guid: be7725bd3409475eb299dac191462763, type: 2}
+  - {fileID: 11400000, guid: a6bc74a6748a49f8bba6bffaf087bc1f, type: 2}
+  - {fileID: 11400000, guid: 80f2f68cec6c4ea8beab99e6518afc0f, type: 2}
+  - {fileID: 11400000, guid: fe5876a2431a4666998071964db68b2b, type: 2}
+  - {fileID: 11400000, guid: d304a4537e3546099780fbd0801add68, type: 2}
+  - {fileID: 11400000, guid: 961d143611644913aab5a596e9fd1d84, type: 2}
+  - {fileID: 11400000, guid: f5b958be9ad6415d8b1c70f46eb457b5, type: 2}
+  - {fileID: 11400000, guid: 0bb104e0870d4aa387157296f93e5f2f, type: 2}
+  - {fileID: 11400000, guid: acff2cf952714557b1987a61817089f0, type: 2}
+  - {fileID: 11400000, guid: e0c65a39323142a887a1156b91eec173, type: 2}
+  - {fileID: 11400000, guid: 29a681daba2443bdb7a54aa881febac5, type: 2}
+  - {fileID: 11400000, guid: b78567dbd8f5488094ba2b68040eb02d, type: 2}
+  - {fileID: 11400000, guid: faef92765916425eb0bf2581bfd5b999, type: 2}
+  - {fileID: 11400000, guid: 0f72fabe50674df5a6888da246279a8c, type: 2}
+  - {fileID: 11400000, guid: e25b9da9174c482e9a7851890edc27bb, type: 2}
+  - {fileID: 11400000, guid: 9fbe7d6475f04d6494a531929625dcf5, type: 2}
+  - {fileID: 11400000, guid: 05066f71ef764ce3bad34224afb76177, type: 2}
+  - {fileID: 11400000, guid: 9bcdd83e0ae04a4abba6dbfe4c0fdab9, type: 2}
+  - {fileID: 11400000, guid: 9ffdaa4b94c044e9910923527d6cab1d, type: 2}
+  - {fileID: 11400000, guid: 49f737dc8f82457c9bf8dd5c6d2ceea7, type: 2}
+  - {fileID: 11400000, guid: acba9758f0b54d53b6000dee52187ad7, type: 2}
+  - {fileID: 11400000, guid: 73f8acf29fc64d41adbe444c997baf4e, type: 2}
+  - {fileID: 11400000, guid: 661e60855f8b493cae602e7c08e9ba6e, type: 2}
+  - {fileID: 11400000, guid: b43b3a714657490eadf5105add8ec293, type: 2}
+  - {fileID: 11400000, guid: ae2280efc24749fd8805ee8c31265358, type: 2}
+  - {fileID: 11400000, guid: d5255ea3b0094e11bcb8a762c2f24b8a, type: 2}
+  - {fileID: 11400000, guid: c970f4a91ff042beb8d00d9a7a4485cb, type: 2}
+  - {fileID: 11400000, guid: ddec2a09d3144fe89fc10858c2282719, type: 2}
+  - {fileID: 11400000, guid: 0ba54bba5b7144a782a582a63e8716ef, type: 2}
+  - {fileID: 11400000, guid: 09baaeabfcee444bb50654fd15f5afde, type: 2}
+  - {fileID: 11400000, guid: b84de8b5128247da855844a8f995c41f, type: 2}
+  - {fileID: 11400000, guid: 026aa030e60a4b43abe9ddecb96eb591, type: 2}
+  - {fileID: 11400000, guid: abc2c5fd4cb64d6f9ea0a0893fd5fb0c, type: 2}
+  - {fileID: 11400000, guid: 1a4822dc3f714be7bf6d9bbbd1272bcd, type: 2}
+  - {fileID: 11400000, guid: f701b83fff7349c7875b14128b1a03d8, type: 2}
+  - {fileID: 11400000, guid: 62035485dda4473ca149783e510dbd1f, type: 2}
+  - {fileID: 11400000, guid: 57854779e17945a18238e7a58e5a402b, type: 2}
+  - {fileID: 11400000, guid: 952e2b4394a64d7193c8d711e2407b39, type: 2}
+  - {fileID: 11400000, guid: 641b1ab88d1048438859429d889588ec, type: 2}
+  - {fileID: 11400000, guid: 7a97a84434b441df95e5514b0f6c4d3d, type: 2}
+  - {fileID: 11400000, guid: 280d8edff92b493eacda953d4a8a66ab, type: 2}
+  - {fileID: 11400000, guid: 72398ff22b164671a0948ac1e0137df4, type: 2}
+  - {fileID: 11400000, guid: 059195e4a38b4aa08b1d325002d9181b, type: 2}
+  - {fileID: 11400000, guid: 7c051bdac05d4eccaf95d61659dc4370, type: 2}
+  - {fileID: 11400000, guid: 1271290da11f4b4e991668bee1f87485, type: 2}
+  - {fileID: 11400000, guid: e9278684abf54d36b6eef1092858955c, type: 2}
+  - {fileID: 11400000, guid: b624b09a34cd48dcb1725f6f6251859f, type: 2}
+  - {fileID: 11400000, guid: e2ee361cbc7b486fa43c13169faea5bb, type: 2}
+  - {fileID: 11400000, guid: fcab8caa96b74262b0e58f9b1bcb941f, type: 2}
+  - {fileID: 11400000, guid: d7bad062ae99491dbad1c90c65b6f224, type: 2}
+  - {fileID: 11400000, guid: b3a9064d77424945a00a9d2309a586d9, type: 2}
+  - {fileID: 11400000, guid: ac3b6aeb99494c79afb7059f073f8ab0, type: 2}
+  - {fileID: 11400000, guid: 06fb20788e8346db910afe62bee17fde, type: 2}
+  - {fileID: 11400000, guid: 242c202398014c578632b8965b640c4f, type: 2}
+  - {fileID: 11400000, guid: 167e5466c0e54a7aaa626af3452b8033, type: 2}
+  - {fileID: 11400000, guid: 9c2f68888a754b968aa3c2f841a82e79, type: 2}
+  - {fileID: 11400000, guid: 0296b28f08bf45109985d80798ef7766, type: 2}
+  - {fileID: 11400000, guid: 1c43cc12c70041e88e59181b44f5a23c, type: 2}
+  - {fileID: 11400000, guid: a375536e8d154a9195fb94a523f26577, type: 2}
+  - {fileID: 11400000, guid: d015ddee321f406f89ecef0f3dafb3dd, type: 2}
+  - {fileID: 11400000, guid: e821c1507f57447c94c6e982f54fbf64, type: 2}
+  - {fileID: 11400000, guid: c441d58604fc413b951b86e52d4f451a, type: 2}
+  - {fileID: 11400000, guid: 4f86e6673be740ba883ce6e6dd74c989, type: 2}
+  - {fileID: 11400000, guid: fa7d811535f843738b87f33cc41eb540, type: 2}
+  - {fileID: 11400000, guid: f2f7ba87c6a947c79fd32cc56c400902, type: 2}
+  - {fileID: 11400000, guid: 4f619353702a446e86faeefaeb4568a2, type: 2}
+  - {fileID: 11400000, guid: 1205d79bc1b04ce1b963e5865cbfa887, type: 2}
+  - {fileID: 11400000, guid: b370c29243664f5085035b5062eadf68, type: 2}
+  - {fileID: 11400000, guid: f4bd1ce21d6d43d0b269ea2588fb0912, type: 2}
+  - {fileID: 11400000, guid: 0fbcf6017ec64331a62edf363820c7f8, type: 2}
+  - {fileID: 11400000, guid: 03cf537129b74e3b9806ca7ebdb5e947, type: 2}
+  - {fileID: 11400000, guid: a6662b57a42e4ee0bce0dd57002d6c9d, type: 2}
+  - {fileID: 11400000, guid: 18e5b0c8b23d43149b31aeda89371380, type: 2}
+  - {fileID: 11400000, guid: 2c4a70a84c07408ab5505d90cd19e94a, type: 2}
+  SetName: '[EX12] EX-12: EXTRA BOOSTER DIGITAL WORLD SHAMBALA'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: e355380909304d6ead72f8b08387f233, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

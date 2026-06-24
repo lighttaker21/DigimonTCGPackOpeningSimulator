@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST19
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 670f8b42da64447495ed13e597c90328, type: 2}
+  - {fileID: 11400000, guid: 2bf0da0e01cb478aa512ba6b6caebb9f, type: 2}
+  - {fileID: 11400000, guid: 16bd04efd0e94d4083bf3654eaf44e5f, type: 2}
+  - {fileID: 11400000, guid: eabdef6fca394b4184c257fc1e22a9e1, type: 2}
+  - {fileID: 11400000, guid: 38c61ae1e363490bb6553d27cff2947a, type: 2}
+  - {fileID: 11400000, guid: 848ded4d12334a899a7c79aea5eb7661, type: 2}
+  - {fileID: 11400000, guid: a1640c71a6d2416cb8e1328ce618d155, type: 2}
+  - {fileID: 11400000, guid: 428f0159705e49daa4611230c0524c16, type: 2}
+  - {fileID: 11400000, guid: a75bf95473c843d7a1b92eadb13efb02, type: 2}
+  - {fileID: 11400000, guid: a62798c10b86484088ec22265524f654, type: 2}
+  - {fileID: 11400000, guid: 82400e017cd2471b8fb22f17ff348484, type: 2}
+  - {fileID: 11400000, guid: 7604d00c48854d7ba53952ba9d948c7c, type: 2}
+  - {fileID: 11400000, guid: b1f7e9c5674c4814927b9da1cb678abe, type: 2}
+  - {fileID: 11400000, guid: 73771df915a247969d70596000d7f68b, type: 2}
+  - {fileID: 11400000, guid: 68c5576fa367400986b65467aa4965e1, type: 2}
+  SetName: '[ST19] STARTER DECK FABLE WALTZ [ST-19]'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 670f8b42da64447495ed13e597c90328, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

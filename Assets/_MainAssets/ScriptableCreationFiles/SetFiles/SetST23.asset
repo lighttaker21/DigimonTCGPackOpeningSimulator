@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST23
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: ca90dffd211c4d288c525509720cd23a, type: 2}
+  - {fileID: 11400000, guid: eab5303ab5044f819358cbcbfe702c58, type: 2}
+  - {fileID: 11400000, guid: b156aff9df034ac2a3522f41cccf7870, type: 2}
+  - {fileID: 11400000, guid: 86f98ad22d49451c80a452abadbb86d7, type: 2}
+  - {fileID: 11400000, guid: a0c6282b8de9458788c4e3a8829f5392, type: 2}
+  - {fileID: 11400000, guid: f54bd81be14f4b2089d5e220599dbfa8, type: 2}
+  - {fileID: 11400000, guid: 6ce1864d3b2b427ba504f5385633fcc6, type: 2}
+  - {fileID: 11400000, guid: c01b5e4d9eec44b0a2182b855ca89d9d, type: 2}
+  - {fileID: 11400000, guid: f7c42a5bcf6d4c769da4d852dbe9f8d5, type: 2}
+  - {fileID: 11400000, guid: 9d00594328ef443182c2d5f7ae6f487f, type: 2}
+  - {fileID: 11400000, guid: 3df34031acc94c57a07d9b665e6e8b50, type: 2}
+  - {fileID: 11400000, guid: 1444ec87b7864cef9863c817ce2cbae7, type: 2}
+  - {fileID: 11400000, guid: 51dcfbe2656140d6810971a2054aa260, type: 2}
+  - {fileID: 11400000, guid: e1a8a040fef64119934544114a97d063, type: 2}
+  - {fileID: 11400000, guid: c43e7cb3ceb942709258d658a2a61a10, type: 2}
+  SetName: '[ST23] ST-23: STARTER DECK DIGIMON BEATBREAK'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: ca90dffd211c4d288c525509720cd23a, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []

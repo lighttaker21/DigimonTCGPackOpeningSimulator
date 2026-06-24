@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36c1ad7f18a824d848046070f9642f, type: 3}
+  m_Name: SetST24
+  m_EditorClassIdentifier: 
+  ListOfCardsInSet:
+  - {fileID: 11400000, guid: 323c21eba84e4bd6bc19b9a3975990f7, type: 2}
+  - {fileID: 11400000, guid: c360652e32324d129d02f25d691ac544, type: 2}
+  - {fileID: 11400000, guid: 92baa07a45fd40958b4993ac4960524a, type: 2}
+  - {fileID: 11400000, guid: 66b3dae7e1dd41b096cd57d994968e9a, type: 2}
+  - {fileID: 11400000, guid: 1cf2687786b74f51b9cc94ebe0aa6821, type: 2}
+  - {fileID: 11400000, guid: 17be6d6e2bff4cf0b706b67d403f2ee1, type: 2}
+  - {fileID: 11400000, guid: b1cefeb4dd884134a78a97af3cbdc156, type: 2}
+  - {fileID: 11400000, guid: 2c48370625ab4885a4ac313be70b7472, type: 2}
+  - {fileID: 11400000, guid: 1136335352534ac785a38dd5461db57d, type: 2}
+  - {fileID: 11400000, guid: e3763d1408174ccbb7c55bf02cb1ec2b, type: 2}
+  - {fileID: 11400000, guid: 743a5a99055f467cb56ca4cc89d5cd72, type: 2}
+  - {fileID: 11400000, guid: 2cb365d29be94a6c8e70b1e7cb8e16ad, type: 2}
+  - {fileID: 11400000, guid: 59a16d69ac5b447cac7e283d8ebfb109, type: 2}
+  - {fileID: 11400000, guid: a720a2d800ee4853b85e43dcee3c4bc8, type: 2}
+  - {fileID: 11400000, guid: e40a48d981ea4b6ba32e16c04fb3ce31, type: 2}
+  SetName: '[ST24] ST-24: STARTER DECK DIGIMON DATA SQUAD'
+  SetDescription: 
+  SetCover: {fileID: 11400000, guid: 323c21eba84e4bd6bc19b9a3975990f7, type: 2}
+  SecretPack: 0
+  PromoPack: 0
+  hasBeenUnlocked: 0
+  hasBeenCompleted: 0
+  isRebootBooster: 0
+  KeyCards: []
