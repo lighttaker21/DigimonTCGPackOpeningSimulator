@@ -16,8 +16,11 @@ using UnityEngine.Networking;
 // the related set-data sync tool, which also leaves `cardImage` empty on
 // newly generated CardVariable assets). Instead, card art is fetched at
 // runtime from the `digimon-card-app` project (GitHub: lighttaker21/
-// digimon-card-app), which already has real card art checked in under
-// `src/assets/images/cards/{CARD_ID}.webp`.
+// digimon-card-app), which has real card art checked in under
+// `src/assets/images/cards/{CARD_ID}.webp` AND, as of digimon-card-app
+// commit 903797c9 (scripts/python/Wiki/MoveFiles.py), a parallel raw-PNG
+// export at `src/assets/images/cards-png/{CARD_ID}.png` specifically for
+// consumers like this one that can't decode WebP.
 //
 // WHERE ART COMES FROM
 // ---------------------
@@ -27,14 +30,14 @@ using UnityEngine.Networking;
 // "_P0"/"_P1"/"-J"/"-Sample" variant suffix stripped), the base English art
 // file is fetched from:
 //
-//     https://raw.githubusercontent.com/lighttaker21/digimon-card-app/main/src/assets/images/cards/{CARD_ID}.webp
+//     https://raw.githubusercontent.com/lighttaker21/digimon-card-app/main/src/assets/images/cards-png/{CARD_ID}.png
 //
 // Variant arts (parallel/alt-art/Japanese) are NOT handled here - only the
 // base id with no suffix, per current scope.
 //
 // LOCAL DISK CACHE
 // -----------------
-// Downloaded art is decoded once and cached as a PNG on disk at:
+// Downloaded art is cached as a PNG on disk at:
 //
 //     Application.persistentDataPath + "/CardImageCache/{CARD_ID}.png"
 //
@@ -44,33 +47,21 @@ using UnityEngine.Networking;
 // cached PNG already exists, it is loaded directly from disk and no network
 // request is made.
 //
-// WEBP DECODING STATUS - CAVEAT / BLOCKER
-// -----------------------------------------
-// digimon-card-app stores card art as .webp. Unity's built-in
-// Texture2D.LoadImage / ImageConversion APIs do NOT support WebP - they only
-// understand PNG/JPG/EXR/TGA. A search of this repo (Packages/manifest.json,
-// Packages/packages-lock.json, Assets/Plugins) found NO existing WebP
-// decoder, and none was vendored in here because Unity Package Manager
-// network installs and native plugins cannot be verified to resolve/compile
-// without launching the Unity Editor, which is not available in this
-// environment.
+// WEBP CAVEAT - RESOLVED VIA SOURCE-SIDE PNG EXPORT
+// ---------------------------------------------------
+// Unity's built-in Texture2D.LoadImage / ImageConversion APIs do not support
+// WebP, and no WebP decoder is vendored in this project. Rather than solve
+// that on the Unity side, digimon-card-app's scrape pipeline was changed to
+// also export a PNG copy of every card image it downloads, so this loader
+// can just fetch PNG bytes directly and skip decoding entirely.
 //
-// As a result, DecodeWebPToTexture2D() below currently throws
-// NotSupportedException with a clear message instead of silently failing.
-// The rest of the pipeline (download, cache-check, cache-write, Sprite
-// assignment) is fully implemented and is NOT blocked - only the WebP byte
-// decode step is.
-//
-// RECOMMENDED FOLLOW-UP (pick one):
-//   1. Have digimon-card-app (or a small CI/server-side conversion step)
-//      also publish PNG or JPG copies of card art at a parallel path/URL,
-//      and switch DOWNLOAD_URL_TEMPLATE below to point at those instead.
-//      This is the simplest fix and needs no Unity-side native code.
-//   2. Vendor a tested, pure-C# WebP decoder package via Unity Package
-//      Manager (e.g. a verified git-URL package) and implement
-//      DecodeWebPToTexture2D() using it. Do this only once it can be
-//      verified inside the actual Unity Editor, since UPM package
-//      resolution cannot be confirmed from a non-Editor environment.
+// CAVEAT: the PNG export only happens for cards (re-)scraped after
+// digimon-card-app commit 903797c9. Cards whose wiki scrape predates that
+// commit won't have a `cards-png/{id}.png` file until digimon-card-app's
+// next scheduled refresh (its GitHub Action runs every 3 days, or can be
+// triggered manually) re-downloads them. Until then, GetCardSpriteAsync
+// will fail (404) for those specific cards and log an error rather than
+// silently showing nothing.
 //
 // USAGE
 // -----
@@ -89,8 +80,14 @@ using UnityEngine.Networking;
 // =============================================================================
 public static class CardImageLoader
 {
+    // digimon-card-app now also exports raw (pre-webp) PNGs alongside its
+    // webp art, specifically so non-webp consumers like this project can
+    // use them directly without a decoder (see digimon-card-app commit
+    // 903797c9, scripts/python/Wiki/MoveFiles.py). This only takes effect
+    // on cards (re-)scraped after that commit landed - cards whose wiki
+    // scrape predates it won't have a PNG until the next refresh run.
     private const string DownloadUrlTemplate =
-        "https://raw.githubusercontent.com/lighttaker21/digimon-card-app/main/src/assets/images/cards/{0}.webp";
+        "https://raw.githubusercontent.com/lighttaker21/digimon-card-app/main/src/assets/images/cards-png/{0}.png";
 
     private static string CacheDirectory => Path.Combine(Application.persistentDataPath, "CardImageCache");
 
@@ -167,32 +164,11 @@ public static class CardImageLoader
             }
             else
             {
-                byte[] webpBytes = await DownloadBytesAsync(cardId);
-                if (webpBytes == null)
+                pngBytes = await DownloadBytesAsync(cardId);
+                if (pngBytes == null)
                 {
                     return null;
                 }
-
-                Texture2D decoded;
-                try
-                {
-                    decoded = DecodeWebPToTexture2D(webpBytes);
-                }
-                catch (NotSupportedException ex)
-                {
-                    Debug.LogError(
-                        $"CardImageLoader: cannot decode WebP art for card '{cardId}' - {ex.Message}");
-                    return null;
-                }
-
-                if (decoded == null)
-                {
-                    Debug.LogError($"CardImageLoader: WebP decode returned null for card '{cardId}'.");
-                    return null;
-                }
-
-                pngBytes = decoded.EncodeToPNG();
-                UnityEngine.Object.Destroy(decoded);
 
                 Directory.CreateDirectory(CacheDirectory);
                 await WriteFileAsync(cachePath, pngBytes);
@@ -242,26 +218,6 @@ public static class CardImageLoader
         }
 
         return request.downloadHandler.data;
-    }
-
-    /// <summary>
-    /// Decodes raw WebP-encoded bytes into a Texture2D.
-    ///
-    /// CURRENT STATUS: BLOCKED. Unity's built-in image APIs (Texture2D.
-    /// LoadImage / ImageConversion) do not support WebP, and no WebP
-    /// decoder package/plugin is currently vendored into this project (see
-    /// the header comment block at the top of this file for why, and the
-    /// two recommended follow-ups). Calling this throws NotSupportedException
-    /// rather than silently failing or producing a blank/incorrect texture.
-    /// </summary>
-    private static Texture2D DecodeWebPToTexture2D(byte[] webpBytes)
-    {
-        throw new NotSupportedException(
-            "WebP decoding is not yet implemented. Unity's Texture2D.LoadImage does not support " +
-            "WebP. Either have digimon-card-app publish PNG/JPG art alongside the .webp files and " +
-            "point CardImageLoader.DownloadUrlTemplate at those, or vendor a verified pure-C#/UPM " +
-            "WebP decoder (verify package resolution inside the Unity Editor first). " +
-            "See the header comment in CardImageLoader.cs for details.");
     }
 
     private static async Task<byte[]> ReadFileAsync(string path)
